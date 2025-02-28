@@ -23,10 +23,10 @@ on:
 
 jobs:
   aCatForCreatingThePullRequest:
-    name: A cat for your effort!
+    name: A treat for your effort!
     runs-on: ubuntu-latest
     steps:
-      - uses: ruairidhwm/action-cats@1.0.1
+      - uses: parthiv13/treat@final
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
