@@ -1,8 +1,8 @@
 {
-  "name": "action-cats",
+  "name": "treat",
   "version": "1.0.0",
   "private": false,
-  "description": "Posts a cat gif on every PR as a reward for pushing code.",
+  "description": "Posts a gif on every PR as a reward for pushing code.",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -10,7 +10,7 @@
     "format-check": "prettier --check **/*.ts",
     "lint": "eslint src/**/*.ts",
     "pack": "ncc build",
-    "all": "yarn run build && yarn run format && yarn run lint && yarn run pack"
+    "all": "npm run build && npm run format && yarn run lint && yarn run pack"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/github": "^2.1.1"
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.23",
@@ -36,14 +36,14 @@
     "@typescript-eslint/parser": "^2.8.0",
     "@vercel/ncc": "^0.27.0",
     "eslint": "^7.21.0",
-    "eslint-plugin-github": "^2.0.0",
+    "eslint-plugin-github": "^5.1.8",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "jest": "^26.6.0",
-    "jest-circus": "^24.9.0",
+    "jest": "^29.7.0",
+    "jest-circus": "^29.7.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.19.1",
-    "ts-jest": "^26.5.3",
+    "ts-jest": "^29.2.6",
     "typescript": "^3.6.4"
   }
 }
