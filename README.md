@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Cat Gif" src="https://i.imgur.com/9z4r02l.png">
+  <img alt="Cat Gif" src="https://github.com/parthiv13/treat/blob/master/assets/brand.jpeg">
 </p>
 
 # Action Cats
@@ -30,3 +30,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+
+
+[def]: https://github.com/parthiv13/treat/blob/master/assets/1.gi
